@@ -1,0 +1,8 @@
+/NullReferences/
+/.idea/
+/Datatypes/
+/Declarations/
+/HelloWorld/
+*.iml
+.gradle/
+build/
