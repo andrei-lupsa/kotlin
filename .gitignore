@@ -6,3 +6,5 @@
 *.iml
 .gradle/
 build/
+/AccessModifiers/
+/Inheritance/
