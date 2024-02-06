@@ -1,9 +1,14 @@
 plugins {
     kotlin("jvm") version "1.9.22"
+    application
 }
 
 group = "academy.learnprogramming"
 version = "1.0-SNAPSHOT"
+
+application{
+    mainClass.set("academy.learnprogramming.oochallenge.OOChallengeKt")
+}
 
 repositories {
     mavenCentral()
