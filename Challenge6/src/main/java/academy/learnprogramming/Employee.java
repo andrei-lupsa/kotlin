@@ -14,4 +14,19 @@ public class Employee {
         this.salaryLast3Years = new float[3];
     }
 
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public float[] getSalaryLast3Years() {
+        return salaryLast3Years;
+    }
+
+    public void setSalaryLast3Years(float[] salaryLast3Years) {
+        this.salaryLast3Years = salaryLast3Years;
+    }
 }
